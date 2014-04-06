@@ -1,3 +1,5 @@
+package chat;
+
 import base.GameChat;
 import base.MessageSystem;
 import chat.GameChatImpl;
@@ -31,18 +33,18 @@ public class TestGameChatImpl {
     public void testGetMessageSystem() {
         Assert.assertNotNull(gameChat.getMessageSystem());
     }
-    @Test
-    public void testSendMessage() {
-        gameChat.createChat(sessionId1,sessionId2);
-        UserDataSet userDataSet = new UserDataSet();
-        UserDataImpl.putLogInUser(sessionId1, userDataSet);
-        GameChatImpl.sendMessage(sessionId1,"text");
-
-        UserDataImpl.putLogInUser(sessionId3, userDataSet);
-        GameChatImpl.sendMessage(sessionId3,"text2");
-
-        GameChatImpl.sendMessage(null, null);
-    }
+//    @Test
+//    public void testSendMessage() {
+//        gameChat.createChat(sessionId1,sessionId2);
+//        UserDataSet userDataSet = new UserDataSet();
+//        UserDataImpl.putLogInUser(sessionId1, userDataSet);
+//        GameChatImpl.sendMessage(sessionId1,"text");
+//
+//        UserDataImpl.putLogInUser(sessionId3, userDataSet);
+//        GameChatImpl.sendMessage(sessionId3,"text2");
+//
+//        GameChatImpl.sendMessage(null, null);
+//    }
 
     @Test(timeOut = 500, expectedExceptions = Exception.class)
     public void testRun() {
