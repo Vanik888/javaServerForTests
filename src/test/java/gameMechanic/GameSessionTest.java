@@ -197,11 +197,43 @@ public class GameSessionTest {
         Integer normal = (Integer)normalMethod.invoke(this.gameSession, args);
         Assert.assertTrue(normal == 0);
 
-//        paramTypes = new Class[] { int.class};
-//        Method normalMethod = clazz.getDeclaredMethod("normal", paramTypes);
-//        normalMethod.setAccessible(true);
-//        args = new Object[] {0};
-//        Integer normal = (Integer)normalMethod.invoke(this.gameSession, args);
+        paramTypes = new Class[] { int.class, int.class};
+        Method kingCanEatRightUpMethod = clazz.getDeclaredMethod("kingCanEatRightUp", paramTypes);
+        kingCanEatRightUpMethod.setAccessible(true);
+        args = new Object[] {6, 0};
+        currentPositions[0][6].setType(checker.black);
+        currentPositions[1][7].setType(checker.white);
+        Boolean kingCanEatRightUp = (Boolean)kingCanEatRightUpMethod.invoke(this.gameSession, args);
+        Assert.assertFalse(kingCanEatRightUp);
+
+        paramTypes = new Class[] { int.class, int.class};
+        Method kingCanEatLeftUpMethod = clazz.getDeclaredMethod("kingCanEatLeftUp", paramTypes);
+        kingCanEatLeftUpMethod.setAccessible(true);
+        args = new Object[] {2, 1};
+        Boolean kingCanEatLeftUp = (Boolean)kingCanEatLeftUpMethod.invoke(this.gameSession, args);
+        Assert.assertFalse(kingCanEatLeftUp);
+
+        paramTypes = new Class[] { int.class, int.class};
+        Method kingCanEatRightDownMethod = clazz.getDeclaredMethod("kingCanEatRightDown", paramTypes);
+        kingCanEatRightDownMethod.setAccessible(true);
+        args = new Object[] {3, 2};
+        Boolean kingCanEatRightDown = (Boolean)kingCanEatRightDownMethod.invoke(this.gameSession, args);
+        Assert.assertFalse(kingCanEatRightDown);
+
+        paramTypes = new Class[] { int.class, int.class};
+        Method kingCanEatLeftDownMethod = clazz.getDeclaredMethod("kingCanEatRightDown", paramTypes);
+        kingCanEatLeftDownMethod.setAccessible(true);
+        args = new Object[] {3, 2};
+        Boolean kingCanEatLeftDown = (Boolean)kingCanEatLeftDownMethod.invoke(this.gameSession, args);
+        Assert.assertFalse(kingCanEatLeftDown);
+
+//        paramTypes = new Class[] { long.class};
+//        Method getWinnerIdMethod = clazz.getDeclaredMethod("getWinnerId", paramTypes);
+//        getWinnerIdMethod.setAccessible(true);
+//        args = new Object[] { 1L };
+//        Long getWinnerId = (Long)getWinnerIdMethod.invoke(this.gameSession, args);
+//        System.out.println(getWinnerId);
+
     }
 
     @Test

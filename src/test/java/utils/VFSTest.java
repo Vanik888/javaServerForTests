@@ -72,21 +72,21 @@ public class VFSTest {
 
     @BeforeTest
     public void setUp() throws Exception {
-        testFilePaths.put("Error", "/");
-        testFilePaths.put("Error", "/testFileOne");
-        testFilePaths.put("Success", "/testDir/testFileOne");
+        testFilePaths.put("Error", "\\");
+        testFilePaths.put("Error", "\\testFileOne");
+        testFilePaths.put("Success", "\\testDir\\testFileOne");
 
-        File myPath = new File(System.getProperty("user.dir") + "/testDir");
+        File myPath = new File(System.getProperty("user.dir") + "\\testDir");
         myPath.mkdir();
         myPath.mkdirs();
 
-        this.writeFile(myPath.getPath() + "/testFileOne", "Test read!");
-        this.writeFile(myPath.getPath() + "/testFileTwo", "Test read!");
+        this.writeFile(myPath.getPath() + "\\testFileOne", "Test read!");
+        this.writeFile(myPath.getPath() + "\\testFileTwo", "Test read!");
     }
 
     @AfterTest
     public void tearDown() throws Exception {
-        File myPath = new File(System.getProperty("user.dir") + "/testDir");
+        File myPath = new File(System.getProperty("user.dir") + "\\testDir");
         this.deleteFile(myPath);
     }
 

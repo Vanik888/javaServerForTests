@@ -269,8 +269,9 @@ public class GameSession{
 		checker myColor=getFieldType(x,y), anotherColor=getAnotherColor(myColor);
 		for(int counter=1;counter<settings.getFieldSize();counter++){
 			if((x+counter>=settings.getFieldSize()-2)||(y+counter>=settings.getFieldSize()-2)
-					||(getFieldType(x+counter,y+counter)==myColor))
-				return false;
+					||(getFieldType(x+counter,y+counter)==myColor)){
+                return false;
+            }
 			if(getFieldType(x+counter,y+counter)==anotherColor){
 				return fieldIsEmpty(x+counter+1,y+counter+1);
 			}
@@ -282,8 +283,9 @@ public class GameSession{
 		checker myColor=getFieldType(x,y), anotherColor=getAnotherColor(myColor);
 		for(int counter=1;counter<settings.getFieldSize();counter++){
 			if((x-counter<=1)||(y+counter>=settings.getFieldSize()-2)
-					||(getFieldType(x-counter,y+counter)==myColor))
-				return false;
+					||(getFieldType(x-counter,y+counter)==myColor)){
+                return false;
+            }
 			if(getFieldType(x-counter,y+counter)==anotherColor){
 				return fieldIsEmpty(x-counter-1,y+counter+1);
 			}
@@ -295,10 +297,14 @@ public class GameSession{
 		checker myColor=getFieldType(x,y), anotherColor=getAnotherColor(myColor);
 		for(int counter=1;counter<settings.getFieldSize();counter++){
 			if((x+counter>=settings.getFieldSize()-2)||(y+counter<=1)
-					||(getFieldType(x+counter,y-counter)==myColor))
-				return false;
-			if((x+counter>=settings.getFieldSize())||(y-counter<=0))
-				return false;
+					||(getFieldType(x+counter,y-counter)==myColor)){
+                return false;
+            }
+
+			if((x+counter>=settings.getFieldSize())||(y-counter<=0)){
+                return false;
+            }
+
 			if(getFieldType(x+counter,y-counter)==anotherColor){
 				return fieldIsEmpty(x+counter+1,y-counter-1);
 			}
