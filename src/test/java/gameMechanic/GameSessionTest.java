@@ -1,10 +1,7 @@
 package gameMechanic;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import resource.GameSettings;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -185,6 +182,26 @@ public class GameSessionTest {
         currentPositions[2][1].setType(checker.black);
         canMove = (Boolean)canMoveMethod.invoke(this.gameSession, args);
         Assert.assertFalse(canMove);
+
+        paramTypes = new Class[] { checker.class};
+        Method canMoveCheckerMethod = clazz.getDeclaredMethod("canMove", paramTypes);
+        canMoveCheckerMethod.setAccessible(true);
+        args = new Object[] {checker.black};
+        canMove = (Boolean)canMoveCheckerMethod.invoke(this.gameSession, args);
+        Assert.assertTrue(canMove);
+
+        paramTypes = new Class[] { int.class};
+        Method normalMethod = clazz.getDeclaredMethod("normal", paramTypes);
+        normalMethod.setAccessible(true);
+        args = new Object[] {0};
+        Integer normal = (Integer)normalMethod.invoke(this.gameSession, args);
+        Assert.assertTrue(normal == 0);
+
+//        paramTypes = new Class[] { int.class};
+//        Method normalMethod = clazz.getDeclaredMethod("normal", paramTypes);
+//        normalMethod.setAccessible(true);
+//        args = new Object[] {0};
+//        Integer normal = (Integer)normalMethod.invoke(this.gameSession, args);
     }
 
     @Test
