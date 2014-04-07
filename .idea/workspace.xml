@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d706276-62cf-412d-bbb1-21237c925153" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\javaServerForTests\log\Вс 2014 04 06 at 11 54 30 PM MSK\9.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\javaServerForTests\log\Вс 2014 04 06 at 11 58 59 PM MSK\9.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\javaServerForTests\log\Пн 2014 04 07 at 12 00 54 AM MSK\9.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\javaServerForTests\log\Пн 2014 04 07 at 12 05 17 AM MSK\9.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/statistic/MemoryUsage" afterPath="$PROJECT_DIR$/statistic/MemoryUsage" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/gameMechanic/GameSessionTest.java" afterPath="$PROJECT_DIR$/src/test/java/gameMechanic/GameSessionTest.java" />
+      <change type="DELETED" beforePath="C:\javaServerForTests\log\Пн 2014 04 07 at 08 22 16 PM MSK\9.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\javaServerForTests\log\Пн 2014 04 07 at 08 22 32 PM MSK\9.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\javaServerForTests\log\Пн 2014 04 07 at 10 27 27 AM MSK\9.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\javaServerForTests\log\Пн 2014 04 07 at 11 27 06 AM MSK\9.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\javaServerForTests\log\Пн 2014 04 07 at 11 27 14 AM MSK\9.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\javaServerForTests\log\Пн 2014 04 07 at 11 40 21 AM MSK\9.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistic/MemoryUsage" afterPath="$PROJECT_DIR$/statistic/MemoryUsage" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistic/ccu" afterPath="$PROJECT_DIR$/statistic/ccu" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistic/time" afterPath="$PROJECT_DIR$/statistic/time" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistic/totalMemory" afterPath="$PROJECT_DIR$/statistic/totalMemory" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="java-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -821,16 +816,16 @@
       <workItem from="1396877849646" duration="288000" />
       <workItem from="1396879684390" duration="599000" />
       <workItem from="1396884289221" duration="595000" />
-      <workItem from="1396887684686" duration="662000" />
+      <workItem from="1396887684686" duration="668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7203000" />
+    <option name="totallyTimeSpent" value="7209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -851,7 +846,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1276252" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.171459" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.171459" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
