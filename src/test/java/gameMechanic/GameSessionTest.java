@@ -1,5 +1,6 @@
 package gameMechanic;
 
+import gameClasses.Snapshot;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import java.io.BufferedReader;
@@ -227,13 +228,6 @@ public class GameSessionTest {
         Boolean kingCanEatLeftDown = (Boolean)kingCanEatLeftDownMethod.invoke(this.gameSession, args);
         Assert.assertFalse(kingCanEatLeftDown);
 
-//        paramTypes = new Class[] { long.class};
-//        Method getWinnerIdMethod = clazz.getDeclaredMethod("getWinnerId", paramTypes);
-//        getWinnerIdMethod.setAccessible(true);
-//        args = new Object[] { 1L };
-//        Long getWinnerId = (Long)getWinnerIdMethod.invoke(this.gameSession, args);
-//        System.out.println(getWinnerId);
-
     }
 
     @Test
@@ -277,5 +271,13 @@ public class GameSessionTest {
         this.stepsToKing(this.gameSession);
         fields = this.gameSession.getFields();
         Assert.assertTrue(fields.length == 21);
+    }
+
+    @Test
+    public void testGetSnapshot() throws Exception{
+        Snapshot snapshotId1 = this.gameSession.getSnapshot(1);
+        Assert.assertTrue(snapshotId1.toString().contains("\"color\":\"w\""));
+        Snapshot snapshotId2 = this.gameSession.getSnapshot(2);
+        Assert.assertTrue(snapshotId2.toString().contains("\"color\":\"b\""));
     }
 }

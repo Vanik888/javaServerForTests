@@ -4,10 +4,8 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicInteger;
-
 import resource.GameSettings;
 import resource.ResourceFactory;
-
 import gameClasses.Field;
 import gameClasses.Field.checker;
 import gameClasses.Snapshot;

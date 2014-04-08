@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java" afterPath="$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/gameMechanic/GameSessionTest.java" afterPath="$PROJECT_DIR$/src/test/java/gameMechanic/GameSessionTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistic/MemoryUsage" afterPath="$PROJECT_DIR$/statistic/MemoryUsage" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/utils/VFSTest.java" afterPath="$PROJECT_DIR$/src/test/java/utils/VFSTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistic/ccu" afterPath="$PROJECT_DIR$/statistic/ccu" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistic/time" afterPath="$PROJECT_DIR$/statistic/time" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistic/totalMemory" afterPath="$PROJECT_DIR$/statistic/totalMemory" />
@@ -73,15 +72,18 @@
     <favorites_list name="java-server" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49084017">
+    <splitter split-orientation="horizontal" split-proportion="0.48488665">
       <split-first>
         <leaf>
           <file leaf-file-name="GameSessionTest.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/gameMechanic/GameSessionTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="234" column="42" selection-start="10919" selection-end="10919" vertical-scroll-proportion="0.4267442" vertical-offset="3611" max-vertical-offset="4879">
+                <state line="272" column="47" selection-start="12294" selection-end="12294" vertical-scroll-proportion="0.6639535" vertical-offset="2982" max-vertical-offset="3842">
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="method#stepsToKing#0;class#GameSessionTest#0" expanded="false" />
+                    <element signature="method#readFile#0;class#GameSessionTest#0" expanded="false" />
+                    <element signature="method#deleteFile#0;class#GameSessionTest#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -94,17 +96,14 @@
           <file leaf-file-name="GameSession.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="492" column="31" selection-start="14620" selection-end="14620" vertical-scroll-proportion="0.34767443" vertical-offset="7861" max-vertical-offset="9843">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TimeHelper.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/utils/TimeHelper.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-                  <folding />
+                <state line="182" column="4" selection-start="5549" selection-end="5549" vertical-scroll-proportion="0.50348836" vertical-offset="2661" max-vertical-offset="10081">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#16764#16765#0" expanded="true" />
+                    <element signature="e#16791#16792#0" expanded="true" />
+                    <element signature="e#16825#16826#0" expanded="true" />
+                    <element signature="e#16852#16853#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -131,8 +130,8 @@
         <option value="$PROJECT_DIR$/src/test/java/TestGameChatImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/dbService/TestTExecutor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/VFSTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java" />
         <option value="$PROJECT_DIR$/src/test/java/gameMechanic/GameSessionTest.java" />
       </list>
     </option>
@@ -206,6 +205,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -316,36 +316,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaServerForTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gameMechanic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -363,7 +333,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,7 +360,7 @@
       <recent name="chat" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VFSTest">
+  <component name="RunManager" selected="TestNG.GameSessionTest">
     <configuration default="false" name="TestNewUserTargetRules" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -863,15 +832,17 @@
       <workItem from="1396884289221" duration="595000" />
       <workItem from="1396887684686" duration="1053000" />
       <workItem from="1396890967430" duration="4809000" />
+      <workItem from="1396946275015" duration="1425000" />
+      <workItem from="1396951376268" duration="3027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12403000" />
+    <option name="totallyTimeSpent" value="16855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -886,19 +857,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12673056" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08626198" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.157082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36929923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1544196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36818686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -924,9 +895,76 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/gameMechanic/GameSessionTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="32" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="4386">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#stepsToKing#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#readFile#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#deleteFile#0;class#GameSessionTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="10081">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16764#16765#0" expanded="true" />
+            <element signature="e#16791#16792#0" expanded="true" />
+            <element signature="e#16825#16826#0" expanded="true" />
+            <element signature="e#16852#16853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TimeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gameMechanic/GameSessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="234" column="42" selection-start="10919" selection-end="10919" vertical-scroll-proportion="0.0" vertical-offset="3611" max-vertical-offset="4879">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#stepsToKing#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#readFile#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#deleteFile#0;class#GameSessionTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="492" column="31" selection-start="14620" selection-end="14620" vertical-scroll-proportion="0.0" vertical-offset="8364" max-vertical-offset="10115">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16764#16765#0" expanded="true" />
+            <element signature="e#16791#16792#0" expanded="true" />
+            <element signature="e#16825#16826#0" expanded="true" />
+            <element signature="e#16852#16853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TimeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gameMechanic/GameSessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="203" column="78" selection-start="9140" selection-end="9140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4335">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#stepsToKing#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#readFile#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#deleteFile#0;class#GameSessionTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -934,7 +972,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="496" column="63" selection-start="14763" selection-end="14763" vertical-scroll-proportion="0.0" vertical-offset="8432" max-vertical-offset="9741">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16764#16765#0" expanded="true" />
+            <element signature="e#16791#16792#0" expanded="true" />
+            <element signature="e#16825#16826#0" expanded="true" />
+            <element signature="e#16852#16853#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -943,6 +987,9 @@
         <state line="4" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4335">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#stepsToKing#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#readFile#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#deleteFile#0;class#GameSessionTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -950,7 +997,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="468" column="32" selection-start="14205" selection-end="14205" vertical-scroll-proportion="0.0" vertical-offset="7956" max-vertical-offset="9741">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16764#16765#0" expanded="true" />
+            <element signature="e#16791#16792#0" expanded="true" />
+            <element signature="e#16825#16826#0" expanded="true" />
+            <element signature="e#16852#16853#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -959,6 +1012,9 @@
         <state line="4" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="4335">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#stepsToKing#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#readFile#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#deleteFile#0;class#GameSessionTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -968,6 +1024,9 @@
         <state line="4" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3842">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#stepsToKing#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#readFile#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#deleteFile#0;class#GameSessionTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -975,7 +1034,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="468" column="32" selection-start="14205" selection-end="14205" vertical-scroll-proportion="0.0" vertical-offset="7956" max-vertical-offset="10013">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16764#16765#0" expanded="true" />
+            <element signature="e#16791#16792#0" expanded="true" />
+            <element signature="e#16825#16826#0" expanded="true" />
+            <element signature="e#16852#16853#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -984,6 +1049,9 @@
         <state line="4" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="3842">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#stepsToKing#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#readFile#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#deleteFile#0;class#GameSessionTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -991,7 +1059,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="468" column="32" selection-start="14205" selection-end="14205" vertical-scroll-proportion="0.0" vertical-offset="7956" max-vertical-offset="10013">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16764#16765#0" expanded="true" />
+            <element signature="e#16791#16792#0" expanded="true" />
+            <element signature="e#16825#16826#0" expanded="true" />
+            <element signature="e#16852#16853#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,13 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="492" column="31" selection-start="14620" selection-end="14620" vertical-scroll-proportion="0.34767443" vertical-offset="7861" max-vertical-offset="9843">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utils/VFSTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="67" selection-start="2073" selection-end="2073" vertical-scroll-proportion="-0.9862543" vertical-offset="2085" max-vertical-offset="2958">
@@ -1075,11 +1142,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gameMechanic/GameSessionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameClasses/Snapshot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="42" selection-start="10919" selection-end="10919" vertical-scroll-proportion="0.4267442" vertical-offset="3611" max-vertical-offset="4879">
+        <state line="2" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.038857143" vertical-offset="0" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gameMechanic/GameSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="4" selection-start="5549" selection-end="5549" vertical-scroll-proportion="0.50348836" vertical-offset="2661" max-vertical-offset="10081">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#16764#16765#0" expanded="true" />
+            <element signature="e#16791#16792#0" expanded="true" />
+            <element signature="e#16825#16826#0" expanded="true" />
+            <element signature="e#16852#16853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gameMechanic/GameSessionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="272" column="47" selection-start="12294" selection-end="12294" vertical-scroll-proportion="0.6639535" vertical-offset="2982" max-vertical-offset="3842">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#stepsToKing#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#readFile#0;class#GameSessionTest#0" expanded="false" />
+            <element signature="method#deleteFile#0;class#GameSessionTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
